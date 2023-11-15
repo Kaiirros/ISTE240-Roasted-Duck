@@ -5,6 +5,6 @@ This project was created by:
 
 Daniel McKee (dgm6546@rit.edu)
 Zhi Jun Liang (zl5660@rit.edu)
-Mark Stubble(mps4205@rit.edu)
+Mark Stubble (mps4205@rit.edu)
 Brandon Perez (bp2945@rit.edu)
 
