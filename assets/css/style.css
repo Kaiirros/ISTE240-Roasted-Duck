@@ -5,9 +5,10 @@ body{
 
 button {
     background-color: #1C3859;
-    color: #F8A427 !important;
+    color: #F8A427;
     border: none;
-    border-radius: 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     left: 40px;
     font-size: 16px;
     cursor: pointer;
@@ -52,18 +53,19 @@ button {
     font-size: 16px;
     border: none;
   
-    color: rgb(5, 4, 4);
+    color: #F8A427;
     padding: 14px 16px;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
 }
   
-.nav a:hover,
+
 .dropdown:hover .dropbtn {
     box-shadow: black;
     color: #080808; 
-    border-radius: 15%;
+    background-color: #F8A427;
+    
 }
 
   
@@ -96,4 +98,51 @@ button {
   
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+.hero{
+    position:relative;
+    top:0%;
+    left:30%;
+}
+
+.hero p:first-child{
+    font-family: 'Inter';
+    font-size: 128px;
+    color:#FFFFFF;
+    font-weight: lighter;
+    margin-bottom: 5px;
+}
+
+.p1{
+    color:#F8A427;
+    font-family: 'Inter';
+    font-weight: lighter;
+    font-size: 48px;
+    margin-top: 5px;
+}
+
+.grid1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    justify-items: center;
+    border-radius: 5px;
+    gap: 0px;
+    margin: 50px 75px;
+}
+
+.grid1 div{
+    width:250px;
+    padding: 10px 20px;
+    border-radius: 7px;
+    
+    background-color: #314E6F;
 }
