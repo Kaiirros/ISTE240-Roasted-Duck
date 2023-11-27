@@ -140,9 +140,14 @@ button {
 }
 
 .grid1 div{
-    width:250px;
+    width:300px;
+    min-height: 400px;
     padding: 10px 20px;
     border-radius: 7px;
-    
+    text-align: center;
     background-color: #314E6F;
+    font-family: 'Inter';
+    font-size: 24px;
+    color:#F8A427;
+    padding-bottom: 10px;
 }

@@ -28,22 +28,22 @@
   <div class="grid1">
     <div>
       <p>Goal 1</p> 
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad praesentium commodi ipsum expedita sint aspernatur nostrum odit excepturi vero, similique animi neque placeat ratione dicta cum, at sed magni natus!</p>
+      <p>Lorem ipsum dolor sit amet consectetur. Sit id id risus faucibus ullamcorper pharetra etiam maecenas. Sed eu mattis proin quis iaculis. Augue </p>
     </div>
 
     <div>
       <p>Goal 2</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur assumenda placeat nemo soluta nisi minima? Ea tempore alias odio id, culpa consequuntur odit veritatis aliquam quos ipsa omnis quaerat pariatur?</p>
+      <p>Lorem ipsum dolor sit amet consectetur. Sit id id risus faucibus ullamcorper pharetra etiam maecenas. Sed eu mattis proin quis iaculis. Augue </p>
     </div>
 
     <div>
       <p>Goal 3</p> 
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id, ea ipsum minus ex illo labore ut voluptates accusantium repudiandae consectetur autem commodi dolore similique, molestiae, fugit consequatur aperiam! Vitae, laudantium!</p>
+      <p>Lorem ipsum dolor sit amet consectetur. Sit id id risus faucibus ullamcorper pharetra etiam maecenas. Sed eu mattis proin quis iaculis. Augue </p>
     </div>
 
     <div>
       <p>Goal 4</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro iusto voluptatibus mollitia ipsam aliquam nulla rem asperiores error dolorem molestiae! Nulla temporibus adipisci incidunt culpa commodi voluptatibus, omnis atque nam?</p>
+      <p>Lorem ipsum dolor sit amet consectetur. Sit id id risus faucibus ullamcorper pharetra etiam maecenas. Sed eu mattis proin quis iaculis. Augue </p>
     </div>
   </div>
 </div>
