@@ -104,3 +104,80 @@ body{
 .tutor{
     margin: 50px 75px;
 }
+
+.grid1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    margin-left: 300px;
+   
+}
+
+.p {
+    font-family: 'Inter';
+    font-size: 46px;
+    color: #0A199B;
+    text-align: left; 
+    margin-top: 150px;
+    margin-left: 150px;
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: left;
+    align-items: center;
+    max-width: 800px;
+    top: 550px; 
+    height: 240px;
+    margin-left: 450px;
+    
+}
+
+.grid3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: left;
+    align-items: center;
+    max-width: 800px;
+    top: 550px; 
+    height: 240px; 
+    grid-column-gap: 0;
+    grid-row-gap: 0;
+}
+
+.p1,
+.p2 {
+    font-family: 'Inter';
+    font-size: 24px;
+    color: white;
+    text-align: left;
+    margin-top: -20px; 
+}
+
+.p1 {
+    background-color: #1C3859;
+    height: 50px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.p2 {
+    background-color: #314E6F;
+    height: 50px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    /* margin-top: -30px; */
+}
+
+.link:hover {
+    color: rgb(98, 96, 37);
+}
+
+.link {
+    color: white;
+}
+
+
+

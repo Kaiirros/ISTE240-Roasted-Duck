@@ -10,7 +10,7 @@
     </div>
 
     <div class="dropdown">
-    <a href="travel.html" onsubmit="return false"
+    <a href="index.php" onsubmit="return false"
         ><button class="dropbtn">Home</button></a
     >
     </div>
