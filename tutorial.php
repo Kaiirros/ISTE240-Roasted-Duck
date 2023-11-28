@@ -17,16 +17,19 @@
     </div>
   </div>
 
+
   <div class="grid2">
-    <div>
+
+      <div>
         <p class="p1">Tutorials content </p>
       </div>
 
+      <div class="tutorialsContainer">
       <div class="grid3">
         <div>
           <p class="p2"><a href="#" class="link">Tutorial 1 </a></p>
         </div>
-        
+
         <div>
           <p class="p2"><a href="#" class="link">Tutorial 2 </a></p>
         </div>
@@ -38,7 +41,9 @@
         <div>
           <p class="p2"><a href="#" class="link">Tutorial 4 </a></p>
         </div>
+      </div>
 
+      <div class="grid3">
         <div>
           <p class="p2"><a href="#" class="link">Tutorial 5 </a></p>
         </div>
@@ -55,6 +60,8 @@
           <p class="p2"><a href="#" class="link">Tutorial 8 </a></p>
         </div>
       </div>
+
+    </div>
   </div>
 </div>
 

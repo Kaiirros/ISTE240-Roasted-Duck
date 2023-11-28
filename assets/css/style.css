@@ -1,6 +1,6 @@
 body{
     background-attachment: fixed;
-    background-image: linear-gradient(#2c598c , black ); 
+    background-image: linear-gradient(#2c598c , black );
 }
 
 button {
@@ -16,86 +16,86 @@ button {
 }
 
 .nav {
-    
+
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     position: fixed;
-    top: 0; 
+    top: 0;
     background-color: #2c598c;
-    width: 100%; 
+    width: 100%;
     color:#F8A427;
-    z-index: 1; 
+    z-index: 1;
     /* background-color: #1C3859; */
-   
-   
+
+
 }
-  
-  
+
+
 .seele {
     position: absolute;
     left: 10px;
 }
-  
-  
+
+
 .nav a {
-    font-size: 20px; 
+    font-size: 20px;
     padding: 20px 24px;
-   
+
 }
 
-  
+
 .dropdown {
     float: left;
 }
-  
+
 .dropdown .dropbtn {
     font-size: 16px;
     border: none;
-  
+
     color: #F8A427;
     padding: 14px 16px;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
 }
-  
+
 
 .dropdown:hover .dropbtn {
     box-shadow: black;
-    color: #080808; 
+    color: #080808;
     background-color: #F8A427;
-    
+
 }
 
-  
+
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #FFBD3E; 
+    background-color: #FFBD3E;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
     border-radius: 15%;
-    
-  
+
+
 }
-  
+
 .dropdown-content a {
     float: none;
-    color: black; 
+    color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     text-align: left;
 }
 
-  
+
 .dropdown-content a:hover {
     background-color: #F8A427;
     color: black;
 }
-  
+
 .dropdown:hover .dropdown-content {
     display: block;
 }

@@ -11,87 +11,85 @@ button {
 }
 
 .nav {
-    
+
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     position: fixed;
-    top: 0; 
+    top: 0;
     background-color: #2c598c;
-    width: 100%; 
+    width: 100%;
     color:#F8A427;
-    z-index: 1; 
+    z-index: 1;
     right:1px;
     /* background-color: #1C3859; */
-   
-   
+
 }
-  
-  
+
 .seele {
     position: absolute;
     left: 10px;
 }
-  
-  
+
+
 .nav a {
-    font-size: 20px; 
+    font-size: 20px;
     padding: 20px 24px;
-   
+
 }
 
-  
+
 .dropdown {
     float: left;
 }
-  
+
 .dropdown .dropbtn {
     font-size: 16px;
     border: none;
-  
+
     color: #F8A427;
     padding: 14px 16px;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
 }
-  
+
 
 .dropdown:hover .dropbtn {
     box-shadow: black;
-    color: #080808; 
+    color: #080808;
     background-color: #F8A427;
-    
+
 }
 
-  
+
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #FFBD3E; 
+    background-color: #FFBD3E;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
     border-radius: 15%;
-    
-  
+
+
 }
-  
+
 .dropdown-content a {
     float: none;
-    color: black; 
+    color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     text-align: left;
 }
 
-  
+
 .dropdown-content a:hover {
     background-color: #F8A427;
     color: black;
 }
-  
+
 .dropdown:hover .dropdown-content {
     display: block;
 }
@@ -110,37 +108,51 @@ body{
     grid-template-columns: 1fr;
     justify-content: center;
     align-items: center;
-    margin-left: 300px;
-   
+    margin-left: 25%;
+
 }
 
 .p {
     font-family: 'Inter';
     font-size: 46px;
     color: #0A199B;
-    text-align: left; 
-    margin-top: 150px;
-    margin-left: 150px;
+    text-align: left;
+    margin-top: 2em;
+
+}
+
+.tutorialsContainer {
+  display: flex;
+  flex-direction: row;
+  padding: .5em;
+  padding-top: 0px;
+  margin-top: 0px;
+  justify-content: left;
 }
 
 .grid2 {
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-content: left;
-    align-items: center;
-    max-width: 800px;
-    top: 550px; 
-    height: 240px;
-    margin-left: 450px;
-    
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    top: 550px;
+    margin-left: 25%;
+    background-color: #314E6F;
+    padding: 0em;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 5px 5px 20px black;
 }
 
 .grid3 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: left;
-    align-items: center;
-    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    max-width: 100%;
+    background-color: #314E6F;
+    padding-bottom: .2em;
+    padding-left: .5em;
+    width: 50%;
+
 }
 
 .p1,
@@ -149,7 +161,6 @@ body{
     font-size: 24px;
     color: white;
     text-align: left;
-    margin-top: -20px; 
 }
 
 .p1 {
@@ -157,15 +168,13 @@ body{
     height: 50px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    margin-bottom: 10px;
+    margin-top: 0px;
+    text-align: left;
+    padding: .5em;
 }
 
 .p2 {
     background-color: #314E6F;
-    height: 50px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    /* margin-top: -30px; */
 }
 
 .link:hover {
@@ -174,7 +183,5 @@ body{
 
 .link {
     color: white;
+    text-decoration: none;
 }
-
-
-
