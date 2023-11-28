@@ -141,10 +141,6 @@ body{
     justify-content: left;
     align-items: center;
     max-width: 800px;
-    top: 550px; 
-    height: 240px; 
-    grid-column-gap: 0;
-    grid-row-gap: 0;
 }
 
 .p1,
@@ -159,7 +155,8 @@ body{
 .p1 {
     background-color: #1C3859;
     height: 50px;
-    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     margin-bottom: 10px;
 }
 
