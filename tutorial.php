@@ -27,7 +27,7 @@
       <div class="tutorialsContainer">
       <div class="grid3">
         <div>
-          <p class="p2"><a href="#" class="link">Tutorial 1 </a></p>
+          <p class="p2"><a href="intro.php" class="link">UNIX Introduction </a></p>
         </div>
 
         <div>
