@@ -107,15 +107,71 @@ body{
     justify-content: space-evenly;
 }
 
+.container{
+    border:1px solid #B78787;
+    border-bottom-right-radius: 70px;
+    border-top-left-radius: 70px;
+    width:180px;
+    height: 160px;
+    background-color: #B78787;
+}
+
+.container1{
+    border:1px solid #B8A04A;
+    border-bottom-right-radius: 70px;
+    border-top-left-radius: 70px;
+    width:180px;
+    height: 160px;
+    background-color: #B8A04A;
+}
+
+.container2{
+    border:1px solid #9BAB58;
+    border-bottom-right-radius: 70px;
+    border-top-left-radius: 70px;
+    width:180px;
+    height: 160px;
+    background-color: #9BAB58;
+}
+
+.container3{
+    border:1px solid #D3785B;
+    border-bottom-right-radius: 70px;
+    border-top-left-radius: 70px;
+    width:180px;
+    height: 160px;
+    background-color: #D3785B;
+}
+
+.container4{
+    border:1px solid #878E6B;
+    border-bottom-right-radius: 70px;
+    border-top-left-radius: 70px;
+    width:180px;
+    height: 160px;
+    background-color: #878E6B;
+}
+
+
+.grid5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-evenly;
+    column-gap: 5px;
+    margin-top: 50px;
+}
+
 .p1{
     font-family: 'Inter';
     font-size: 96px;
     color:#0A199B;
+    font-weight: 100;
 }
 
 .p2 , .p3 {
     font-family: 'Inter';
     font-size: 36px;
+    font-weight: 100;
 
 }
 
@@ -127,5 +183,13 @@ body{
 .p21 , .p4{
     font-family: 'Inter';
     font-size: 26px;
+    font-weight: 100;
+}
+
+.one{
+    color:#0A199B;
+    font-family: 'Inter';
+    font-size: 64px;
+    font-weight: 100;
 }
 
