@@ -31,7 +31,7 @@
         </div>
 
         <div>
-          <p class="p2"><a href="#" class="link">Tutorial 2 </a></p>
+          <p class="p2"><a href="tutorial2.php" class="link">Tutorial 2 </a></p>
         </div>
 
         <div>
