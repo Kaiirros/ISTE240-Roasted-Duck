@@ -53,6 +53,45 @@
     </div>
   </div>
 
+  <div>
+    <div>
+      <p> 6. home directories and pathnames</p>
+      <div class="grid6">
+        <div>
+        <p class="container5"></p>
+          <p> 1: Listing files and directories</p>
+        </div>
+
+        <div>
+          <p class="container5"></p>
+          <p> 1: Listing files and directories</p>
+        </div>
+
+        <div>
+          <p class="container5"></p>
+          <p> 1: Listing files and directories</p>
+        </div>
+
+        <div>
+          <p class="container5"></p>
+          <p> 1: Listing files and directories</p>
+        </div>
+
+        <div>
+          <p class="container5"></p>
+          <p> 1: Listing files and directories</p>
+        </div>
+
+        <div>
+          <p class="container5"></p>
+          <p> 1: Listing files and directories</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <a href="tutorial.php"> Unix tutorials content</a>
+
 </div>
 
 <?php

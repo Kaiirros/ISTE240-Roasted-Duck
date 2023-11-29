@@ -21,7 +21,7 @@
   <div class="grid2">
 
       <div>
-        <p class="p1">Tutorials content </p>
+        <p class="p1">Unix tutorials content </p>
       </div>
 
       <div class="tutorialsContainer">

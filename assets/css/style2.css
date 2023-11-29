@@ -152,10 +152,27 @@ body{
     background-color: #878E6B;
 }
 
+.container5{
+    border:1px solid #B7A187;
+    border-bottom-right-radius: 70px;
+    border-top-left-radius: 70px;
+    width:180px;
+    height: 160px;
+    background-color: #B7A187;
+}
+
 
 .grid5 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-evenly;
+    column-gap: 5px;
+    margin-top: 50px;
+}
+
+.grid6 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-evenly;
     column-gap: 5px;
     margin-top: 50px;
