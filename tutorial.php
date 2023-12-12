@@ -1,8 +1,10 @@
 <?php
   $path='./';
   $page='Roasted Duck';
-  include $path . 'assets/inc/header1.php';
+  include $path . 'assets/inc/header.php';
 ?>
+
+<body class="tutorial-body">
 
 <?php
   $path='./';
@@ -10,54 +12,55 @@
   include $path . 'assets/inc/nav.php';
 ?>
 
+
 <div>
-  <div class="grid1">
+  <div class="tutorial-grid-header">
     <div>
-      <p class="p">Tutorials </p>
+      <p class="tutorial-header">Tutorials</p>
     </div>
   </div>
 
 
-  <div class="grid2">
+  <div class="tutorial-grid">
 
       <div>
-        <p class="p1">Unix tutorials content </p>
+        <p class="tutorial-title">Unix Tutorial Content </p>
       </div>
 
       <div class="tutorialsContainer">
-      <div class="grid3">
+      <div class="tutorial-inner-grid">
         <div>
-          <p class="p2"><a href="intro.php" class="link">UNIX Introduction </a></p>
+          <p class="tutorial-element"><a href="intro.php" class="tutorial-link">UNIX Introduction </a></p>
         </div>
 
         <div>
-          <p class="p2"><a href="tutorial2.php" class="link">Tutorial 2 </a></p>
+          <p class="tutorial-element"><a href="tutorial2.php" class="tutorial-link">Tutorial 2 </a></p>
         </div>
 
         <div>
-          <p class="p2"><a href="#" class="link">Tutorial 3 </a></p>
+          <p class="tutorial-element"><a href="#" class="tutorial-link">Tutorial 3 </a></p>
         </div>
 
         <div>
-          <p class="p2"><a href="#" class="link">Tutorial 4 </a></p>
+          <p class="tutorial-element"><a href="#" class="tutorial-link">Tutorial 4 </a></p>
         </div>
       </div>
 
-      <div class="grid3">
+      <div class="tutorial-inner-grid">
         <div>
-          <p class="p2"><a href="#" class="link">Tutorial 5 </a></p>
+          <p class="tutorial-element"><a href="#" class="tutorial-link">Tutorial 5 </a></p>
         </div>
 
         <div>
-          <p class="p2"><a href="#" class="link">Tutorial 6 </a></p>
+          <p class="tutorial-element"><a href="#" class="tutorial-link">Tutorial 6 </a></p>
         </div>
 
         <div>
-          <p class="p2"><a href="#" class="link">Tutorial 7 </a></p>
+          <p class="tutorial-element"><a href="#" class="tutorial-link">Tutorial 7 </a></p>
         </div>
 
         <div>
-          <p class="p2"><a href="#" class="link">Tutorial 8 </a></p>
+          <p class="tutorial-element"><a href="#" class="tutorial-link">Tutorial 8 </a></p>
         </div>
       </div>
 

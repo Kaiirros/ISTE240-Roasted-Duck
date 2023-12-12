@@ -3,7 +3,7 @@
   $page='Roasted Duck';
   include $path . 'assets/inc/header.php';
 ?>
-
+<body class="body-main">
 <?php
   $path='./';
   $page='Roasted Duck';

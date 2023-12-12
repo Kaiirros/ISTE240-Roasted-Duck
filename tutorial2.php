@@ -1,21 +1,21 @@
 <?php
   $path='./';
   $page='Roasted Duck';
-  include $path . 'assets/inc/header2.php';
+  include $path . 'assets/inc/header.php';
 ?>
-
+<body class="body-tutorial2">
 <?php
   $path='./';
   $page='Roasted Duck';
   include $path . 'assets/inc/nav.php';
 ?>
 
-<div class="grid3">
+<div>
   <br>
   <br>
   <br>
-  <p class="one"> Tutorial 1</p>
-  <div class="grid5">
+  <p class="tutorial-header"> Tutorial 1</p>
+  <div class="tutorial2-grid">
     
     <div>
       <p class="container"></p>
@@ -28,27 +28,27 @@
     </div>
 
     <div>
-      <p class="container1"></p>
+      <p class="container container1"></p>
       <p> 1: Listing files and directories</p>
     </div>
 
     <div>
-      <p class="container2"></p>
+      <p class="container container2"></p>
       <p> 1: Listing files and directories</p>
     </div>
 
     <div>
-      <p class="container3"></p>
+      <p class="container container3"></p>
       <p> 1: Listing files and directories</p>
     </div>
 
     <div>
-      <p class="container4"></p>
+      <p class="container container4"></p>
       <p> 1: Listing files and directories</p>
     </div>
 
     <div>
-      <p class="container4"></p>
+      <p class="container container4"></p>
       <p> 1: Listing files and directories</p>
     </div>
   </div>
@@ -56,34 +56,34 @@
   <div>
     <div>
       <p> 6. home directories and pathnames</p>
-      <div class="grid6">
+      <div class="tutorial2-grid tutorial2-grid2">
         <div>
-        <p class="container5"></p>
+        <p class="container container5"></p>
           <p> 1: Listing files and directories</p>
         </div>
 
         <div>
-          <p class="container5"></p>
+          <p class="container container5"></p>
           <p> 1: Listing files and directories</p>
         </div>
 
         <div>
-          <p class="container5"></p>
+          <p class="container container5"></p>
           <p> 1: Listing files and directories</p>
         </div>
 
         <div>
-          <p class="container5"></p>
+          <p class="container container5"></p>
           <p> 1: Listing files and directories</p>
         </div>
 
         <div>
-          <p class="container5"></p>
+          <p class="container container5"></p>
           <p> 1: Listing files and directories</p>
         </div>
 
         <div>
-          <p class="container5"></p>
+          <p class="container container5"></p>
           <p> 1: Listing files and directories</p>
         </div>
       </div>
