@@ -54,6 +54,8 @@
             <p class="caption"> The Directory Structure</p>
         </div>
     </div>
+
+    <a href="tutorial.php"> Unix tutorials content</a>
 </div>
 
 <?php

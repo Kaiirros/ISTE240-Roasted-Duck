@@ -19,7 +19,7 @@
     <button class="dropbtn active" >Unix</button>
     <div class="dropdown-content">
         <a href="tutorial.php" >Tutorials</a>
-        <a href="#" >Quizzes</a>
+        <a href="quiz1.php" >Quizzes</a>
         
     </div>
     </div>
