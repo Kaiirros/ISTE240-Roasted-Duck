@@ -1,7 +1,7 @@
 <?php
   $path='./';
   $page='Roasted Duck';
-  include $path . 'assets/inc/header1.php';
+  include $path . 'assets/inc/header.php';
 ?>
 
 <?php

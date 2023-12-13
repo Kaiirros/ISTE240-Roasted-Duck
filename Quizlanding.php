@@ -1,9 +1,9 @@
 <?php
   $path='./';
   $page='Roasted Duck';
-  include $path . 'assets/inc/header1.php';
+  include $path . 'assets/inc/header.php';
 ?>
-
+<body class="tutorial-body">
 <?php
   $path='./';
   $page='Roasted Duck';
@@ -11,35 +11,35 @@
 ?>
 
 <div>
-  <div class="grid1">
+  <div class="tutorial-grid-header">
     <div>
-      <p class="p">Quizzes </p>
+      <p class="tutorial-header">Quizzes </p>
     </div>
   </div>
 
 
-  <div class="grid2">
+  <div class="tutorial-grid">
 
       <div>
         <p class="p1">Select Quiz Below </p>
       </div>
 
       <div class="tutorialsContainer">
-      <div class="grid3">
+      <div class="tutorial-inner-grid">
         <div>
-          <p class="p2"><a href="quiz1.php" class="link">Quiz 1 </a></p>
+          <p class="tutorial-element"><a href="quiz1.php" class="tutorial-link">Quiz 1 </a></p>
         </div>
 
         <div>
-          <p class="p2"><a href="#" class="link">Quiz 2 </a></p>
+          <p class="tutorial-element"><a href="#" class="tutorial-link">Quiz 2 </a></p>
         </div>
 
         <div>
-          <p class="p2"><a href="#" class="link">Quiz 3 </a></p>
+          <p class="tutorial-element"><a href="#" class="tutorial-link">Quiz 3 </a></p>
         </div>
 
         <div>
-          <p class="p2"><a href="#" class="link">Quiz 4 </a></p>
+          <p class="tutorial-element"><a href="#" class="tutorial-link">Quiz 4 </a></p>
         </div>
       </div>
 
