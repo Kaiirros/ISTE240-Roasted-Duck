@@ -426,6 +426,11 @@ INTRO PAGE
     background-color: rgb(149, 131, 78);
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+.para{   
+    font-family: 'Roboto', sans-serif;   
+}
+
 /*
 QUIZ STYLES SECTION
 -------------------------------- */

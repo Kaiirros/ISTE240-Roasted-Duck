@@ -52,7 +52,7 @@
         </div>
 
         <div>
-          <p class="tutorial-element"><a href="#" class="tutorial-link">Tutorial 5 </a></p>
+          <p class="tutorial-element"><a href="tutorial5.php" class="tutorial-link">Tutorial 5 </a></p>
         </div>
 
         <div>

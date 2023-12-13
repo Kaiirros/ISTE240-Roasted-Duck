@@ -21,30 +21,30 @@
     <div class="tutorial3-grid">
         <div class="grid-color">
             <p> <strong>  Redirection </strong></p>
-            <p> %cat </p>
+            <p class="para"> %cat </p>
             
             <p>-If you run the cat command without specifying a file to read, it reads the standard input (the keyboard), and on receiving the 'end of file' (^D), copies it to the standard output (the screen)</p>
 
             <p> <strong>  Redirecting the output </strong></p>
-            <p> %cat > list1</p>
-            <p> 'd' to stop</p>
-            <p> %cat list1</p>
+            <p class="para"> %cat > list1</p>
+            <p class="para"> 'd' to stop</p>
+            <p class="para"> %cat list1</p>
             
             <p>-Use the '>' symbol to redirect the output of a command. To create a file called list1 containing a list of stuff</p>
 
             <p> <strong>  Appedning to a file </strong></p>
-            <p> %cat >> list1</p>
+            <p class="para"> %cat >> list1</p>
             
             <p>-The form '>>' appends standard output to a file. You can add more items in list1</p>
         </div>
 
         <div class="grid-color">
             <p> <strong> Redirecting the input </strong></p>
-            <p> %sort </p>
+            <p class="para"> %sort </p>
 
             <p> -The command sort alphabetically or numerically sorts a list</p>
 
-            <p> %sort < list1 </p>
+            <p class="para"> %sort < list1 </p>
 
             <p> -Using '<' can redirect the input to come from a file</p>
 
@@ -56,7 +56,7 @@
 
             <p> 
 
-            <p> %who</p>
+            <p class="para"> %who</p>
 
             </p>
 
@@ -66,7 +66,7 @@
 
             
             
-            <p> %who > names.txt</p>
+            <p class="para">  %who > names.txt</p>
 
             </p>
 
@@ -76,7 +76,7 @@
 
             
             
-            <p> %who | wc- |</p>
+            <p class="para"> %who | wc- |</p>
 
             </p>
 

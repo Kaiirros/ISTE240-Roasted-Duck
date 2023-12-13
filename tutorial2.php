@@ -21,7 +21,7 @@
     <div class="tutorial3-grid">
         <div class="grid-color">
             <p> <strong>  Copying Files </strong></p>
-            <p> %cp (copy) </p>
+            <p class="para"> %cp (copy) </p>
             
             <p>-%cp file1 file2 is the command which makes a copy of file1 in the current working directory and calls it file2</p>
 
@@ -35,7 +35,7 @@
 
         <div class="grid-color">
             <p> <strong> Moving Files and directory </strong></p>
-            <p> rm (remove), rmdir (remove directory) </p>
+            <p class="para"> rm (remove), rmdir (remove directory) </p>
 
             <p> -To delete (remove) a file, use the rm command. As an example, we are going to create a copy of the science.txt file then delete it.</p>
 
@@ -56,7 +56,7 @@
                 <li> Clear screen</li>
             </ul>
 
-            <p> %clear</p>
+            <p class="para"> %clear</p>
 
             </p>
 
@@ -68,7 +68,7 @@
                 <li> Cat</li>
             </ul>
             
-            <p> %cat example.txt</p>
+            <p class="para"> %cat example.txt</p>
 
             </p>
 
@@ -80,7 +80,7 @@
                 <li> Less</li>
             </ul>
             
-            <p> %less example.txt</p>
+            <p class="para"> %less example.txt</p>
 
             </p>
 
@@ -92,7 +92,7 @@
                 <li> Head</li>
             </ul>
             
-            <p> %head -5 example.txt</p>
+            <p class="para"> %head -5 example.txt</p>
 
             </p>
 
@@ -104,7 +104,7 @@
                 <li> Tail</li>
             </ul>
 
-            <p> %tail 10 example.txt</p>
+            <p class="para"> %tail 10 example.txt</p>
 
             </p>
 
@@ -122,7 +122,7 @@
                 <li> Search using less</li>
             </ul>
 
-            <p> %less example.txt</p>
+            <p class="para"> %less example.txt</p>
 
             </p>
 
@@ -134,18 +134,18 @@
                 <li> Grep</li>
             </ul>
 
-            <p> %grep -i science example.txt</p>
+            <p class="para"> %grep -i science example.txt</p>
 
             </p>
 
             <p> - To ignore uppler/lower case distinctions</p>
 
-            <p> %grep -i science example.txt</p>
+            <p class="para"> %grep -i science example.txt</p>
 
-            <p> %grep -ivc science example.txt</p>
-            <p> -v display those lines that do NOT match</p>
-            <p> -n precede each matching line with the line number</p>
-            <p> -c print only the total count of matched lines</p>
+            <p class="para"> %grep -ivc science example.txt</p>
+            <p class="para"> -v display those lines that do NOT match</p>
+            <p class="para"> -n precede each matching line with the line number</p>
+            <p class="para"> -c print only the total count of matched lines</p>
 
             <p> 
 
@@ -155,13 +155,13 @@
            
            
 
-            <p> %wc -w example.txt</p>
+            <p class="para">  %wc -w example.txt</p>
 
             </p>
 
             <p> - To do a word count</p>
 
-            <p> %wc -l science.txt</p>
+            <p class="para"> %wc -l science.txt</p>
 
 
             <p> - To find out how many lines the file has</p>

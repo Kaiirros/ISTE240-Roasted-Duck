@@ -21,16 +21,16 @@
     <div class="tutorial3-grid">
         <div class="grid-color">
             <p> <strong>  The * wildcard</strong></p>
-            <p> %ls list* </p>
+            <p class="para"> %ls list* </p>
             
-            <p>-This will list all files in the current directory with 'list....'</p>
+            <p>-This will list all files in the current directory with <span class="para"> 'list....' </span></p>
 
-            <p> %ls *list </p>
+            <p class="para"> %ls *list </p>
             
-            <p>-This will list all files in the current directory ending with '...list'</p>
+            <p>-This will list all files in the current directory ending with <span class="para"> '...list'</span></p>
 
             <p> <strong>  The ? wildcard</strong></p>
-            <p> %ls ?list </p>
+            <p class="para"> %ls ?list </p>
             
             <p>-The character '?' will match exactly one character <br> So ?ouse will match files like 'house','mouse', but not 'grouse'</p>
         </div>
@@ -48,27 +48,27 @@
                   <strong>Bad filenames</strong>
                 </div>
 
-                <div>
+                <div class="para">
                   project.txt
                 </div>
 
-                <div>
+                <div class="para">
                   project
                 </div>
 
-                <div>
+                <div class="para">
                   my_big_program.c
                 </div>
 
-                <div>
+                <div class="para">
                   my big program.c
                 </div>
 
-                <div>
+                <div class="para">
                   fred_dave.doc
                 </div>
 
-                <div>
+                <div class="para">
                   fred & dave.doc
                 </div>
             </div>
@@ -81,7 +81,7 @@
 
             <p> 
 
-            <p> %man wc</p>
+            <p class="para"> %man wc</p>
 
             </p>
 
@@ -91,7 +91,7 @@
 
             
             
-            <p> %whatis wc</p>
+            <p class="para"> %whatis wc</p>
 
             </p>
 
@@ -105,13 +105,13 @@
 
             
 
-            <p> %apropos keyword</p>
+            <p class="para"> %apropos keyword</p>
 
             
 
             <p> - When you are not sure of the exact name of a command</p>
 
-            <p> %apropos copy</p>
+            <p class="para"> %apropos copy</p>
 
             
 
