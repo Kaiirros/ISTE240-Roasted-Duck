@@ -134,4 +134,8 @@
   $path='./';
   $page='Roasted Duck';
   include $path . 'assets/inc/footer.php';
+<<<<<<< HEAD
 ?>
+=======
+?>
+>>>>>>> d200cd856fe5eaa6eb719f53ceb58992e269a5cf
