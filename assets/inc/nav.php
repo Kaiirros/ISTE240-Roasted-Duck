@@ -19,22 +19,22 @@
     <button class="dropbtn active" >Unix</button>
     <div class="dropdown-content">
         <a href="tutorial.php" >Tutorials</a>
-        <a href="#" >Quizzes</a>
-        
+        <a href="Quizlanding.php" >Quizzes</a>
+
     </div>
     </div>
 
     <div class="dropdown">
     <button class="dropbtn active" >Sponsors</button>
     <div class="dropdown-content">
-        
+
     </div>
     </div>
 
     <div class="dropdown">
     <button class="dropbtn active" id="culture-link">Contact</button>
     <div class="dropdown-content">
-        
+
     </div>
     </div>
 
