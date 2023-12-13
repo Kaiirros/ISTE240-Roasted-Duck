@@ -10,100 +10,177 @@
   include $path . 'assets/inc/nav.php';
 ?>
 
+
+
 <div>
-  <br>
-  <br>
-  <br>
-  <p class="tutorial-header"> Tutorial 1</p>
-  <div class="tutorial2-grid">
-    
-    <div>
-      <p class="container"> <span class="pspan"> %ls </span></p>
-      <p> 1: Listing files and directories</p>
-      <p class="paracolor"> The '%ls' command (lowercase 'L'), lists the <br> contents of your current working directory.</p>
-    </div>
+    <br>
+    <br>
+    <br>
+    <p class="tutorial-header"> Tutorial 2</p>
 
-    <div>
-      <p class="container"> <span class="pspan">  %ls -a </span></p>
-      <p> 1: Listing files and directories</p>
-      <p class="paracolor"> ls -a lists files that are normally hidden.</p>
-    </div>
+    <div class="tutorial3-grid">
+        <div class="grid-color">
+            <p> <strong>  Copying Files </strong></p>
+            <p> %cp (copy) </p>
+            
+            <p>-%cp file1 file2 is the command which makes a copy of file1 in the current working directory and calls it file2</p>
 
-    <div>
-      <p class="container container1"> <span class="pspan"> %mkdir </span></p>
-      <p> 2: Make directories</p>
-      <p class="paracolor"> Use the mkdir command to create one or <br> more directories specified by the Directory parameter.</p>
-    </div>
-
-    <div>
-      <p class="container container2"> <span class="pspan"> %cd </span></p>
-      <p> 3: change directories</p>
-      <p class="paracolor"> The command cd directory means change the  <br> current working directory to another new directory.</p>
-    </div>
-
-    <div>
-      <p class="container container3"> <span class="pspan"> (.) <br> %cd . </span></p>
-      <p> 4: Current directories</p>
-      <p class="paracolor"> In UNIX, (.) means the current directory</p>
-    </div>
-
-    <div>
-      <p class="container container3"> <span class="pspan"> (..)  <br> %cd .. </span></p>
-      <p> 4: Parent directories</p>
-      <p class="paracolor"> (..) means the parent of the current directory</p>
-    </div>
-
-    <div>
-      <p class="container container4"> <span class="pspan"> %pwd </span></p>
-      <p> 5: Print working directory</p>
-      <p class="paracolor"> Pathnames enable you to work out where you are in relation to the whole file-system.  <br>
-        Ex: /home/its/ug1/ee51vn</p>
-    </div>
-  </div>
-
-  <div>
-    <div>
-      <p class="para6"> 6. home directories and pathnames</p>
-      <div class="tutorial2-grid tutorial2-grid2">
-        <div>
-        <p class="container container5"><span class="pspan">  %ls unixstuff </span></p>
-          <p> 1: Type cd to get back to your home directory</p>
-        </div>
-
-        <div>
-          <p class="container container5"><span class="pspan"> %ls backups </span></p>
-          <p> 2: To list the content of your unixstuff directory</p>
-        </div>
-
-        <div>
-          <p class="container container5"><span class="pspan"> %ls backups </span></p>
-          <p> 3: Type this if you received an error that means: <br> backups is not in your current working directory</p>
-        </div>
-
-        
-
-        <div>
           
-          <p class="container container5"><span class="pspan"> %ls ~/unix </span></p>
-          <p>4: List the contents of your unixstuff directory</p>
+            
+            <p>
+            Ex: <br>
+            % cp /home/SAMPLES/example.txt .
+            </p>
         </div>
 
-        <div>
-          <p class="container container5"><span class="pspan"> %ls ~ </span></p>
-          <p> 5: List the files and directories in the user's home directory</p>
+        <div class="grid-color">
+            <p> <strong> Moving Files and directory </strong></p>
+            <p> rm (remove), rmdir (remove directory) </p>
+
+            <p> -To delete (remove) a file, use the rm command. As an example, we are going to create a copy of the science.txt file then delete it.</p>
+
+            
+
+            <p> 
+            Ex: <br>
+            % rm example.txt
+            </p>
         </div>
 
-        <div>
-          <p class="container container5"> <span class="pspan"> %ls ~/.. </span></p>
-          <p> 6: Asking the system to list the contents of the parent  <br> directory of your home directory</p>
+        <div class="grid-color">
+            <p> <strong> Displaying the contents of a file on the screen </strong></p>
+
+            <p> 
+
+            <label>
+            <input type="radio" name="option1" id="option1" value="option1">
+                Clear screen
+            </label>
+
+            <p> %clear</p>
+
+            </p>
+
+            <p> - Clear all text and leave you with the '%' prompt at the top of window</p>
+
+            <p> 
+
+            <label>
+            <input type="radio" name="option1" id="option1" value="option1">
+                Cat (concatenate)
+            </label>
+            
+            <p> %cat example.txt</p>
+
+            </p>
+
+            <p>- The command cat can be used to display the contents of a file on the screen</p>
+
+            <p> 
+
+            <label>
+            <input type="radio" name="option1" id="option1" value="option1">
+                Less
+            </label>
+            
+            <p> %less example.txt</p>
+
+            </p>
+
+            <p> - The command less writes the contents of a file onto the screen a page at a time</p>
+
+            <p> 
+
+            <label>
+            <input type="radio" name="option1" id="option1" value="option1">
+                Head
+            </label>
+            
+            <p> %head -5 example.txt</p>
+
+            </p>
+
+            <p> - The head command writes the first ten lines of a file to the screen</p>
+
+            <p> 
+
+            <label>
+            <input type="radio" name="option1" id="option1" value="option1">
+               Tail
+            </label>
+
+            <p> %tail 10 example.txt</p>
+
+            </p>
+
+            <p> - The tail command writes the last ten lines of a file to the screen</p>
+
+
         </div>
-      </div>
+
+        <div class="grid-color">
+            <p> <strong> Searching the contents of a file </strong></p>
+
+            <p> 
+
+            <label>
+            <input type="radio" name="option1" id="option1" value="option1">
+                Search using less
+            </label>
+
+            <p> %less example.txt</p>
+
+            </p>
+
+            <p> - You can search through a text file for a keyword (pattern)</p>
+
+            <p> 
+
+            <label>
+            <input type="radio" name="option1" id="option1" value="option1">
+                Grep
+            </label>
+
+            <p> %grep -i science example.txt</p>
+
+            </p>
+
+            <p> - To ignore uppler/lower case distinctions</p>
+
+            <p> %grep -i science example.txt</p>
+
+            <p> %grep -ivc science example.txt</p>
+            <p> -v display those lines that do NOT match</p>
+            <p> -n precede each matching line with the line number</p>
+            <p> -c print only the total count of matched lines</p>
+
+            <p> 
+
+            <label>
+            <input type="radio" name="option1" id="option1" value="option1">
+                Word count
+            </label>
+
+            <p> %wc -w example.txt</p>
+
+            </p>
+
+            <p> - To do a word count</p>
+
+            <p> %wc -l science.txt</p>
+
+
+            <p> - To find out how many lines the file has</p>
+
+
+        </div>
     </div>
-  </div>
 
-  <a href="tutorial.php" class="unixbutton"> Unix tutorials content</a>
 
+    <a href="tutorial.php" class="unixbutton"> Unix tutorials content</a>
 </div>
+
+
 
 <?php
   $path='./';

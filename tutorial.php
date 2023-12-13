@@ -34,15 +34,15 @@
         </div>
 
         <div>
+          <p class="tutorial-element"><a href="tutorial1.php" class="tutorial-link">Tutorial 1 </a></p>
+        </div>
+
+        <div>
           <p class="tutorial-element"><a href="tutorial2.php" class="tutorial-link">Tutorial 2 </a></p>
         </div>
 
         <div>
           <p class="tutorial-element"><a href="tutorial3.php" class="tutorial-link">Tutorial 3 </a></p>
-        </div>
-
-        <div>
-          <p class="tutorial-element"><a href="#" class="tutorial-link">Tutorial 4 </a></p>
         </div>
       </div>
 
