@@ -52,10 +52,9 @@
 
             <p> 
 
-            <label>
-            <input type="radio" name="option1" id="option1" value="option1">
-                Clear screen
-            </label>
+            <ul>
+                <li> Clear screen</li>
+            </ul>
 
             <p> %clear</p>
 
@@ -65,10 +64,9 @@
 
             <p> 
 
-            <label>
-            <input type="radio" name="option1" id="option1" value="option1">
-                Cat (concatenate)
-            </label>
+            <ul>
+                <li> Cat</li>
+            </ul>
             
             <p> %cat example.txt</p>
 
@@ -78,10 +76,9 @@
 
             <p> 
 
-            <label>
-            <input type="radio" name="option1" id="option1" value="option1">
-                Less
-            </label>
+            <ul>
+                <li> Less</li>
+            </ul>
             
             <p> %less example.txt</p>
 
@@ -91,10 +88,9 @@
 
             <p> 
 
-            <label>
-            <input type="radio" name="option1" id="option1" value="option1">
-                Head
-            </label>
+            <ul>
+                <li> Head</li>
+            </ul>
             
             <p> %head -5 example.txt</p>
 
@@ -104,10 +100,9 @@
 
             <p> 
 
-            <label>
-            <input type="radio" name="option1" id="option1" value="option1">
-               Tail
-            </label>
+            <ul>
+                <li> Tail</li>
+            </ul>
 
             <p> %tail 10 example.txt</p>
 
@@ -123,10 +118,9 @@
 
             <p> 
 
-            <label>
-            <input type="radio" name="option1" id="option1" value="option1">
-                Search using less
-            </label>
+            <ul>
+                <li> Search using less</li>
+            </ul>
 
             <p> %less example.txt</p>
 
@@ -136,10 +130,9 @@
 
             <p> 
 
-            <label>
-            <input type="radio" name="option1" id="option1" value="option1">
-                Grep
-            </label>
+            <ul>
+                <li> Grep</li>
+            </ul>
 
             <p> %grep -i science example.txt</p>
 
@@ -156,10 +149,11 @@
 
             <p> 
 
-            <label>
-            <input type="radio" name="option1" id="option1" value="option1">
-                Word count
-            </label>
+            <ul>
+                <li> Word count</li>
+            </ul>
+           
+           
 
             <p> %wc -w example.txt</p>
 
