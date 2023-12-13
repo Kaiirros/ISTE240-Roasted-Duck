@@ -60,7 +60,7 @@
         </div>
 
         <div>
-          <p class="tutorial-element"><a href="#" class="tutorial-link">Tutorial 7 </a></p>
+          <p class="tutorial-element"><a href="tutorial7.php" class="tutorial-link">Tutorial 7 </a></p>
         </div>
       </div>
 
