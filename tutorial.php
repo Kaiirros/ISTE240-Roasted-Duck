@@ -38,7 +38,7 @@
         </div>
 
         <div>
-          <p class="tutorial-element"><a href="#" class="tutorial-link">Tutorial 3 </a></p>
+          <p class="tutorial-element"><a href="tutorial3.php" class="tutorial-link">Tutorial 3 </a></p>
         </div>
 
         <div>
