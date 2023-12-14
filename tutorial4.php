@@ -11,7 +11,6 @@
 ?>
 
 
-
 <div>
     <br>
     <br>
@@ -20,23 +19,23 @@
 
     <div class="tutorial3-grid">
         <div class="grid-color">
-            <p> <strong>  The * wildcard</strong></p>
-            <p class="para"> %ls list* </p>
+        <h2>Wildcard Selectors</h2>
+        <hr>
+        <h3 class="tutorial-command-title">The * Wildcard</h3>
             
-            <p>-This will list all files in the current directory with <span class="para"> 'list....' </span></p>
-
-            <p class="para"> %ls *list </p>
+            <p>To list all files in the current directory with 'list....':</p>
+            <i>Ex. % ls list*</i>
             
-            <p>-This will list all files in the current directory ending with <span class="para"> '...list'</span></p>
-
-            <p> <strong>  The ? wildcard</strong></p>
-            <p class="para"> %ls ?list </p>
-            
-            <p>-The character '?' will match exactly one character <br> So ?ouse will match files like 'house','mouse', but not 'grouse'</p>
+            <p>To list all files in the current directory ending with '...list':</p>
+            <i>Ex.  % ls *list </i>
+        <hr>
+            <h3 class="tutorial-command-title">The ? Wildcard</h3>
+            <p>The character '?' will match exactly one character <br> So ?ouse will match files like 'house','mouse', but not 'grouse'</p>
+            <i>Ex. % ls ?all (returns hall, mall, tall, etc.)</i>
         </div>
 
         <div class="grid-color">
-            <p> <strong> Filename conventions </strong></p>
+        <h3 class="tutorial-command-title">Filename Conventions</h3>
             <p> Naming files can not use '/' , '&' , '%' </p>
 
             <div class="tutorial4grid">
@@ -48,27 +47,27 @@
                   <strong>Bad filenames</strong>
                 </div>
 
-                <div class="para">
+                <div>
                   project.txt
                 </div>
 
-                <div class="para">
+                <div>
                   project
                 </div>
 
-                <div class="para">
+                <div>
                   my_big_program.c
                 </div>
 
-                <div class="para">
+                <div>
                   my big program.c
                 </div>
 
-                <div class="para">
+                <div>
                   fred_dave.doc
                 </div>
 
-                <div class="para">
+                <div>
                   fred & dave.doc
                 </div>
             </div>
@@ -77,52 +76,22 @@
         </div>
 
         <div class="grid-color">
-            <p> <strong> On-line Manuals</strong></p>
-
-            <p> 
-
-            <p class="para"> %man wc</p>
-
-            </p>
-
-            <p> - Find out more about the wc (wordcount) command</p>
-
-            <p> 
-
+        <h2> Terminal Manuals</h2>
+        <hr>
+        <h3 class="tutorial-command-title">man wc</h3>
+            <p>Find out more about the wc (wordcount) command</p>
+   
+        <h3 class="tutorial-command-title">whatis wc</h3>
+            <p>Gives one-line description of the command, but omits any information about options etc.</p>
             
-            
-            <p class="para"> %whatis wc</p>
+            <h2>Apropos</h2>
+            <hr>
+            <h3 class="tutorial-command-title">apropos keyword</h3>  
+            <p>When you are not sure of the exact name of a command</p>
 
-            </p>
-
-            <p>- Gives one-line description of the command, but omits any information about options etc.</p>
-
-            <p> 
-
-            
-            
-            <p> <strong> Apropos</strong></p>
-
-            
-
-            <p class="para"> %apropos keyword</p>
-
-            
-
-            <p> - When you are not sure of the exact name of a command</p>
-
-            <p class="para"> %apropos copy</p>
-
-            
-
-            <p> - Will give you the commands with keyword in their manual page header.</p>
-
-
+            <i>Ex. % apropos copy</i>
 
         </div>
-
-        
-
 
         </div>
     </div>

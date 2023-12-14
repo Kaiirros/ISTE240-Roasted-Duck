@@ -44,10 +44,6 @@
         <div>
           <p class="tutorial-element"><a href="tutorial3.php" class="tutorial-link">Tutorial 3 </a></p>
         </div>
-
-        <div>
-          <p class="tutorial-element"><a href="tutorial8.php" class="tutorial-link">Tutorial 8 </a></p>
-        </div>
       </div>
 
       <div class="tutorial-inner-grid">
@@ -56,19 +52,16 @@
         </div>
 
         <div>
-          <p class="tutorial-element"><a href="tutorial5.php" class="tutorial-link">Tutorial 5 </a></p>
+          <p class="tutorial-element"><a href="#" class="tutorial-link">Tutorial 5 </a></p>
         </div>
 
         <div>
-          <p class="tutorial-element"><a href="tutorial6.php" class="tutorial-link">Tutorial 6 </a></p>
+          <p class="tutorial-element"><a href="#" class="tutorial-link">Tutorial 6 </a></p>
         </div>
 
         <div>
-          <p class="tutorial-element"><a href="tutorial7.php" class="tutorial-link">Tutorial 7 </a></p>
+          <p class="tutorial-element"><a href="#" class="tutorial-link">Tutorial 7 </a></p>
         </div>
-
-
-       
       </div>
 
     </div>
