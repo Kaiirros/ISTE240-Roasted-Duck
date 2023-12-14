@@ -519,10 +519,17 @@ INTRO PAGE
     padding: 10px; 
     background-color: #2c598c; 
     color: #F8A427; 
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.duke{
+    margin-left:1550px;
+    margin-top:-490px;
 }
 
 .contact_container:hover {
     transform: scale(1.1);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 .contact_image{
