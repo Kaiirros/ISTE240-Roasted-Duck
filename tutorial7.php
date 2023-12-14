@@ -16,11 +16,11 @@
     <br>
     <br>
     <br>
-    <p class="tutorial-header"> Tutorial 7</p>
+    <p class="tutorial-header"> Tutorial 7 : External Software</p>
 
     <div class="tutorial3-grid">
         <div class="grid-color">
-            <p>Compiling UNIX software packages</p>
+            <h1>Compiling UNIX Software Packages</h1>
 
             
             <p> There are a number of steps needed to install the software.</p>
@@ -35,22 +35,20 @@
             
 
             
-            
-            <p> <strong> Compiling Source Code</strong></p>
+            <h3 class="tutorial-command-title"> Compiling Source Code </h3>
             <p> All high-level language code must be converted into a form the computer understands. For example, C language source code is converted into a lower-level language called assembly language. The assembly language code made by the previous stage is then converted into object code which are fragments of code which the computer understands directly. The final stage in compiling a program involves linking the object code to code libraries which contain certain built-in functions. This final stage produces an executable program.</p>
             
             <p> To do all these steps by hand is complicated and beyond the capability of the ordinary user. A number of utilities and tools have been developed for programmers and end-users to simplify these steps.</p>
             
 
-
-            <p> <strong> Make and the Makefile</strong></p>
+            <h3 class="tutorial-command-title"> Make and the Makefile </h3>
             <p> The <strong>make </strong>command allows programmers to manage large programs or groups of programs. It aids in developing large programs by keeping track of which portions of the entire program have been changed, compiling only those parts of the program which have changed since the last compile.</p>
 
             <p> The<strong> make </strong>program gets its set of compile rules from a text file called <strong>Makefile</strong> which resides in the same directory as the source files. It contains information on how to compile the software, e.g. the optimisation level, whether to include debugging info in the executable. It also contains information on where to install the finished compiled binaries (executables), manual pages, data files, dependent library files, configuration files, etc.</p>
 
             <p> Some packages require you to edit the Makefile by hand to set the final installation directory and any other parameters. However, many packages are now being distributed with the GNU configure utility.</p>
 
-            <p> <strong> configure</strong></p>
+            <h3 class="tutorial-command-title"> configure </h3>
             <p> As the number of UNIX variants increased, it became harder to write programs which could run on all variants. Developers frequently did not have access to every system, and the characteristics of some systems changed from version to version. The GNU configure and build system simplifies the building of programs distributed as source code. All programs are built using a simple, standardised, two step process. The program builder need not install any special tools in order to build the program.</p>
 
             <p> The <strong><span class="para">configure</span></strong> shell script attempts to guess correct values for various system-dependent variables used during compilation. It uses those values to create a <strong>Makefile </strong>in each directory of the package.</p>
@@ -72,14 +70,16 @@
         </div>
 
         <div class="grid-color">
-            <p> <strong> Downloading source code</strong></p>
+        <h3 class="tutorial-command-title">Downloading Source Code</h3>
+            <p> <strong> </strong></p>
             <p> First create a download directory </p>
             <p class="para"> %mkdir download</p>
             
         </div>
 
         <div class="grid-color">
-            <p> <strong> Extractomg the source code</strong></p>
+        <h3 class="tutorial-command-title">Extracting the Source Code</h3>
+            <p> <strong> </strong></p>
             <p> As you can see, the filename ends in tar.gz. The tar command turns several files and directories into one single tar file. This is then compressed using the gzip command (to create a tar.gz file).</p>
             <p class="para"> %cd download <br> %ls -l</p>
             
@@ -97,7 +97,7 @@
         </div>
 
         <div class="grid-color">
-            <p> <strong> Configuring and creating the Makefile</strong></p>
+        <h3 class="tutorial-command-title"> Configuring and Creating the Makefile </h3>
             <p> The units package uses the GNU configure system to compile the source code. We will need to specify the installation directory, since the default will be the main system area which you will not have write permissions for. We need to create an install directory in your home directory.   </p>
             <p class="para"> %mkdir ~/units174</p>
 
@@ -107,7 +107,7 @@
         </div>
 
         <div class="grid-color">
-            <p> <strong> Building the packge</strong></p>
+        <h3 class="tutorial-command-title"> Building the Package </h3>
             <p> Now you can go ahead and build the package by running the make command.  </p>
             <p class="para"> %make</p>
             <p> After a minute or two (depending on the speed of the computer), the executables will be created. You can check to see everything compiled successfully by typing  </p>
@@ -118,7 +118,7 @@
         </div>
 
         <div class="grid-color">
-            <p> <strong> Running the software</strong></p>
+        <h3 class="tutorial-command-title"> Running the Software </h3>
             <p> Assuming everything running </p>
             <p class="para"> %cd ~.units174</p>
 
@@ -166,7 +166,7 @@
         </div>
 
         <div class="grid-color">
-            <p> Stripping unnecessary code</p>
+        <h3 class="tutorial-command-title"> Stripping Unneccesary Code </h3>
             <p> What we are going to do is look at the before and after size of the binary file. First change into the bin directory of the units installation directory. </p>
             
             <p class="para"> %cd ~/units174/bin <br> %ls -l</p>
