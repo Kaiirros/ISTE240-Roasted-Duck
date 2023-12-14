@@ -16,21 +16,16 @@
     <br>
     <br>
     <br>
-    <p class="tutorial-header"> Tutorial 8</p>
+    <p class="tutorial-header"> Tutorial 8 : UNIX Variables</p>
 
     <div class="tutorial3-grid">
         <div class="grid-color">
-            <p><strong>UNIX Variables</strong></p>
+            <h2>UNIX Variables</h2>
 
-            
             <p> Variables are a way of passing information from the shell to programs when you run them. Programs look "in the environment" for particular variables and if they are found will use the values stored. Some are set by the system, others by you, yet others by the shell, or any program that loads another program.</p>
-
             <p> Standard UNIX variables are split into two categories, environment variables and shell variables. In broad terms, shell variables apply only to the current instance of the shell and are used to set short-term working conditions; environment variables have a farther reaching significance, and those set at login are valid for the duration of the session. By convention, environment variables have UPPER CASE and shell variables have lower case names.</p>
-            
-
-            
-            
-            <p> <strong> environment Variables</strong></p>
+        
+            <h3 class="tutorial-command-title"> Environment Variables </h3>
             <p> An example of an environment variable is the OSTYPE variable. The value of this is the current operating system you are using. Type.</p>
             
             <p class="para"> %echo $OSTYPE</p>
@@ -45,8 +40,7 @@
                 <li><span class="para">PATH </span>(the directories the shell should search to find a command)</li>
             </ul>
             
-
-            <p> <strong> Finding out the current values of these variables</strong></p>
+            <h3 class="tutorial-command-title"> Finding out the Current Values of these Variables </h3>
             <p> ENVIRONMENT variables are set using the <strong><span class="para">setenv </span></strong>command, displayed using the <strong><span class="para">printenv</span></strong> or <strong><span class="para">env </span></strong>commands, and unset using the <strong><span class="para">unsetenv </span></strong>command.</p>
 
            
@@ -54,7 +48,7 @@
         </div>
 
         <div class="grid-color">
-            <p> <strong>Shell variables</strong></p>
+        <h3 class="tutorial-command-title"> Shell Variables </h3>
             <p> An example of a shell variable is the history variable. The value of this is how many shell commands to save, allow the user to scroll back through all the commands they have previously entered. Type </p>
             <p class="para"> %echo $history</p>
 
@@ -65,15 +59,14 @@
                 <li><span class="para">prompt </span>(the text string used to prompt for interactive commands shell your login shell)</li>
                
             </ul>
-
-            <p> <strong>Finding out the current values of these variables</strong></p>
+            <h3 class="tutorial-command-title"> Finding out the Current Values of these Variables </h3>
             <p> HELL variables are both set and displayed using the set command. They can be unset by using the unset command.</p>
 
             <p> To show all values of these variables, type</p>
 
             <p class="para"> %set | less</p>
 
-            <p> <strong>So what is the difference between PATH and path ?</strong></p>
+            <h3 class="tutorial-command-title"> So what is the difference between PATH and path? </h3>
             <p> In general, environment and shell variables that have the same name (apart from the case) are distinct and independent, except for possibly having the same initial values. There are, however, exceptions.</p>
 
             <p> Each time the shell variables home, user and term are changed, the corresponding environment variables HOME, USER and TERM receive the same values. However, altering the environment variables has no effect on the corresponding shell variables.</p>
@@ -82,7 +75,7 @@
         </div>
 
         <div class="grid-color">
-            <p> <strong> Using and setting variables</strong></p>
+        <h3 class="tutorial-command-title"> Using and Setting Variables </h3>
             <p> Each time you login to a UNIX host, the system looks in your home directory for initialisation files. Information in these files is used to set up your working environment. The C and TC shells uses two files called .login and .cshrc (note that both file names begin with a dot).</p>
            
             
@@ -98,7 +91,7 @@
         </div>
 
         <div class="grid-color">
-            <p> <strong> Setting shell variables in the '.cshrc' file</strong></p>
+        <h3 class="tutorial-command-title"> Setting Shell Variables in the '.cshrc' File </h3>
             <p> For example, to change the number of shell commands saved in the history list, you need to set the shell variable history. It is set to 100 by default, but you can increase this if you wish.   </p>
             <p class="para"> %set history = 200</p>
 
@@ -117,7 +110,7 @@
         </div>
 
         <div class="grid-color">
-            <p> <strong> Setting the path</strong></p>
+        <h3 class="tutorial-command-title"> Setting the Path </h3>
             <p> When you type a command, your path (or PATH) variable defines in which directories the shell will look to find the command you typed. If the system returns a message saying "command: Command not found", this indicates that either the command doesn't exist at all on the system or it is simply not in your path.</p>
 
             <p> You can add it to the end of your existing path (the $path represents this) by issuing the command:</p>

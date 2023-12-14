@@ -52,15 +52,19 @@
         </div>
 
         <div>
-          <p class="tutorial-element"><a href="tutorial5.php" class="tutorial-link">Tutorial 5 </a></p>
+          <p class="tutorial-element"><a href="tutorial5.php" class="tutorial-link">Tutorial 5: Security and Processes </a></p>
         </div>
 
         <div>
-          <p class="tutorial-element"><a href="tutorial6.php" class="tutorial-link">Tutorial 6 </a></p>
+          <p class="tutorial-element"><a href="tutorial6.php" class="tutorial-link">Tutorial 6: Useful Commands </a></p>
         </div>
 
         <div>
-          <p class="tutorial-element"><a href="tutorial7.php" class="tutorial-link">Tutorial 7 </a></p>
+          <p class="tutorial-element"><a href="tutorial7.php" class="tutorial-link">Tutorial 7: External Software </a></p>
+        </div>
+
+        <div>
+          <p class="tutorial-element"><a href="tutorial8.php" class="tutorial-link">Tutorial 8: UNIX Variables</a></p>
         </div>
       </div>
 

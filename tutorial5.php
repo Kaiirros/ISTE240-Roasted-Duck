@@ -16,16 +16,15 @@
     <br>
     <br>
     <br>
-    <p class="tutorial-header"> Tutorial 5</p>
+    <p class="tutorial-header">Tutorial 5 : Security and Processes</p>
 
     <div class="tutorial3-grid">
         <div class="grid-color">
-            <p> <strong> File system security (access rights)</strong></p>
-            <p class="para"> %ls -l (l for long listing!) </p>
-
+            <h2> File System Security</h2>
+            <h3 class="tutorial-command-title">% ls -l (l for long listing!) </h3>
             <img src="assets/images/unix.png">
             
-            <p>-Each file (and directory) has associated access rights, which may be found by typing <span class="para">ls -la </span></p>
+            <p>Each file (and directory) has associated access rights, which may be found by typing <span class="para">ls -la </span></p>
 
             <p class="para">-rwxrw-r-- 1 ee51ab beng95 2919 Sept10 11:01 file1 </p>
             
@@ -35,16 +34,14 @@
                 <li> The rightmost group gives the permissions for all others.</li>
             </ul>
 
-
-            <p> <strong> Access rights on files</strong></p>
+            <h3 class="tutorial-command-title">Access Rights on Files</h3>
             <ul>
                 <li> <span class="para">r (or -), </span> indicates read permission (or otherwise), that is, the presence or absence of permission to read and copy the file </li>
                 <li> <span class="para">w (or -), </span> indicates write permission (or otherwise), that is, the permission (or otherwise) to change a file </li>
                 <li> <span class="para">x (or -), </span> indicates execution permission (or otherwise), that is, the permission to execute a file, where appropriate</li>
             </ul>
 
-
-            <p> <strong>Access rights on directories</strong></p>
+            <h3 class="tutorial-command-title">Access Rights on Directories</h3>
             <ul>
                 <li> <span class="para">r </span> allows users to list files in the directory;</li>
                 <li> <span class="para">w </span>  means that users may delete files from the directory or move files into it; </li>
@@ -53,7 +50,7 @@
         </div>
 
         <div class="grid-color">
-            <p> <strong> chmod (changing a file mode) </strong></p>
+        <h3 class="tutorial-command-title">chmod (changing a file mode) </h3>
             <p> Only the owner of a file can use chmod to change the permissions of a file</p>
 
             <div class="tutorial4grid">
@@ -139,28 +136,17 @@
             </div>
 
             <p> To give read and write permissions on the file <span class="para">biglist </span>to all</p>
-            <p class="para"> %chmod a+rw biglist</p>
+            <i>Ex. % chmod a+rw biglist</i>
         
         </div>
 
         <div class="grid-color">
-            <p> <strong> Processes and Jobs</strong></p>
-
-            <p> 
-
+        <h3 class="tutorial-command-title">Processes and Jobs</h3>
             <p class="para"> %ps</p>
-
-            </p>
 
             <p> A process is an executing program identified by a unique PID (processidentifier)</p>
 
-            <p> 
-
-            
-            
-            <p> <strong> Running background processes</strong></p>
-
-            <p> 
+            <h3 class="tutorial-command-title"> Running Background Processes</h3>
 
             <p>To run sleep in background: </p>
             <p class="para"> %sleep 10</p>
@@ -174,7 +160,7 @@
 
             <p> The & runs the job in the background and returns the prompt straight away, allowing you do run other programs while waiting for that one to finish.</p>
 
-            <p> <strong> Backgrounding a current foreground process</strong></p>
+            <h3 class="tutorial-command-title">Backgrounding a Current Foreground Process</h3>
 
             <p class="para"> %sleep 1000</p>
 
@@ -184,7 +170,7 @@
 
         
         <div class="grid-color"> 
-        <p> <strong> Listing suspended and background processes</strong></p>
+        <h3 class="tutorial-command-title">Listing Suspended and Background Processes</h3>
 
         <p>When a process is running, backgrounded or suspended, it will be entered onto a list along with a job number.  </p>
         <p class="para"> %jobs</p>
@@ -197,13 +183,12 @@
 
         <p> To restart (foreground) a suspended processes</p>
         <p class="para"> %fg %jobnumber</p>
-        </div>
 
         </div>
 
 
         <div class="grid-color">
-            <p> <strong> Kill (terminate or signal a process)</strong></p>
+        <h3 class="tutorial-command-title">Kill (Terminate or Signal a Process)</h3>
 
             <p> To kill a job running in the foreground, type ^C (control c). For example, run</p>
             <p class="para">%sleep 100 <br> ^C</p>
@@ -219,7 +204,7 @@
         </div>
 
         <div class="grid-color">
-            <p> <strong> ps (process status)</strong></p>
+        <h3 class="tutorial-command-title">ps (Process Status)</h3>
 
             <p> processes can be killed by finding their process numbers (PIDs) and using kill PID_number</p>
             <p class="para">%sleep 1000 & <br> %ps</p>
