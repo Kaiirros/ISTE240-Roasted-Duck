@@ -32,7 +32,10 @@
     </div>
 
     <div class="dropdown">
-    <button class="dropbtn active" id="culture-link">Contact</button>
+    <a href="contact.php" onsubmit="return false"
+        ><button class="dropbtn">Contact</button></a
+    >
+    </div>
     <div class="dropdown-content">
 
     </div>

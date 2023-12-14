@@ -467,6 +467,24 @@ INTRO PAGE
     font-family: 'Roboto', sans-serif;   
 }
 
+/* contact */
+.contact_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:20px;
+    
+}
+
+.contact_container {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px; 
+}
+
+.contact_image{
+    margin-left: 42px;
+}
+
 /*
 QUIZ STYLES SECTION
 -------------------------------- */
