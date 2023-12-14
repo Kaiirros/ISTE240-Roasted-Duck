@@ -15,7 +15,7 @@
     <br>
     <br>
     <br>
-    <p class="tutorial-header"> Tutorial 4</p>
+    <p class="tutorial-header"> Tutorial 4 : Wildcards and Manuals</p>
 
     <div class="tutorial3-grid">
         <div class="grid-color">

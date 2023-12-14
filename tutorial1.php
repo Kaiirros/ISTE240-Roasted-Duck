@@ -14,7 +14,7 @@
   <br>
   <br>
   <br>
-  <p class="tutorial-header"> Tutorial 1</p>
+  <p class="tutorial-header"> Tutorial 1 : Basic Commands</p>
   <div class="tutorial2-grid">
     
     <div>
