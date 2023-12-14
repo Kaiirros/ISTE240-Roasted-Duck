@@ -24,7 +24,7 @@
             <p class="about_title"> About me: </p>
             <p class="about_text"> My name is Daniel McKee, a 2nd year Web and Mobile Computing Major at the Rochester Institute of Technology. I'm from Buffalo, NY, and I'm on the RIT Halo Esports team. I have 4 cats, all of which are lively. As I am from Buffalo, I am a huge fan of the Buffalo Bills and Buffalo Sabres sports teams (Brighter days on the horizon I hope.)  My Spotify wrapped says Indie Rock is my #1 genre but I tend to float around a bit.</p>
             <p class="contact_title"> Contact me at: </p>
-            <a class="contact_link" href="mailto:liangzhijun1216@gmail.com?subject=Subject%20Here&body=Your%20message%20here"><img src="assets/images/email.png" alt="Email" width="50px" height="40px"></a>
+            <a class="contact_link" href="mailto:dgm6546@rit.edu?subject=Subject%20Here&body=Your%20message%20here"><img src="assets/images/email.png" alt="Email" width="50px" height="40px"></a>
         </div>
 
         <div  class="contact_container">
@@ -49,12 +49,12 @@
         </div>
 
         <div  class="contact_container">
-        <img src="assets/images/Daniel_img.jpg" alt="daniel" width="340px" height="300px" class="contact_image">
+        <img src="assets/images/mark.jpg" alt="daniel" width="340px" height="300px" class="contact_image">
             <hr>
             <p class="about_title"> About me: </p>
-            <p class="about_text"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel omnis reprehenderit aspernatur laudantium nemo quod quidem odio sunt alias. Beatae, corporis aliquid. Corporis nam doloribus unde aperiam sapiente deleniti quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, nihil sequi at blanditiis perspiciatis recusandae, praesentium accusantium quasi distinctio ab similique. sofgnowenagfoa </p>
+            <p class="about_text"> I'm Mark Stubble, a third year Computing and Information Technology major at Rochester Institute of Technology.   In my spare time, I like to go to silent films at the loacl theatre, bake/cook, and build model aircraft.  Thanks for visiting; enjoy your stay.  I am a huge enjoyer of Heavy Metal and any type of Metal and Rock music but will generally listen to anything. I love being at RIT. Food there is great. </p>
             <p class="contact_title"> Contact me at: </p>
-            <a class="contact_link" href="mailto:liangzhijun1216@gmail.com?subject=Subject%20Here&body=Your%20message%20here"><img src="assets/images/email.png" alt="Email" width="50px" height="40px"></a>
+            <a class="contact_link" href="mailto:mps4205@g.rit.edu?subject=Subject%20Here&body=Your%20message%20here"><img src="assets/images/email.png" alt="Email" width="50px" height="40px"></a>
         </div>
     </div>
 </div>
