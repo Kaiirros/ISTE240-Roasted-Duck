@@ -126,7 +126,10 @@
         
 
 
-    <a href="tutorial.php" class="unixbutton"> Unix tutorials content</a>
+        <div class="tutorial_button">
+  
+            <a href="tutorial.php" class="unixbutton">Unix tutorials content</a>
+        </div>
 </div>
 
 
