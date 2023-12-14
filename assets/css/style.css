@@ -439,6 +439,7 @@ INTRO PAGE
     position: fixed;
     bottom: 0;
     width: 150px;
+    right: 0; 
     /* z-index: 1000; */
     background-color: #2c598c;
     padding: 10px;
