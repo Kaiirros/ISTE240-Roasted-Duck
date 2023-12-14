@@ -294,9 +294,9 @@ TUTORIAL 2 STYLES
     margin-top: 70px;
 }
 
-.unixbutton:hover{
+/* .unixbutton:hover{
     background-color: lightcyan;
-}
+} */
 
 .container1{
     border:1px solid #B8A04A;
@@ -433,6 +433,31 @@ INTRO PAGE
 
 .one{
     background-color: rgb(149, 131, 78);
+}
+
+.tutorial_button{
+    position: fixed;
+    bottom: 0;
+    width: 150px;
+    /* z-index: 1000; */
+    background-color: #2c598c;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px
+}
+
+.unixbutton {
+    text-decoration: none; 
+    color: #F8A427;
+}
+
+.tutorial_button:hover{
+    background-color: #FFBD3E
+}
+
+.unixbutton:hover {
+   
+    color: black; 
 }
 
 
