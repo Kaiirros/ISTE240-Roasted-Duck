@@ -15,7 +15,7 @@
         <br>
         <br>
         <p class="tutorial-header"> Meet our team!</p>
-        <img src="assets/images/duke.gif" alt="duke" class="duke">
+        <!-- <img src="assets/images/duke.gif" alt="duke" class="duke"> -->
     <div class="contact_grid">
 
         <div  class="contact_container">
