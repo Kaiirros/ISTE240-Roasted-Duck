@@ -482,7 +482,7 @@ INTRO PAGE
 }
 
 .unixbutton:hover {
-
+    background-color: #FFBD3E;
     color: black;
 }
 
