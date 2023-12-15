@@ -633,6 +633,7 @@ INTRO PAGE
 QUIZ STYLES SECTION
 -------------------------------- */
 
+
 .choice {
     width: 300px;
     border-radius: 20px;
@@ -653,26 +654,24 @@ QUIZ STYLES SECTION
     background-color: lightgray;
     width: 200px;
     height: 300px;
-    position: absolute;
-    top: 125px;
     display: none;
-    right: 150px;
-    top: 50px;
     padding: 10px;
     border-radius: 30px 0px 30px 0px;
     box-shadow: 5px 5px orange;
+    margin-left: 20px;
   }
 
   .mainquizholder {
     padding: 3rem;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
     width: 70%;
     background-color: #D7C79E;
     border-radius: 20px;
     box-shadow: 10px 10px 10px darkgray;
-
+    max-width: 800px;
   }
 
   #question {
@@ -707,8 +706,10 @@ QUIZ STYLES SECTION
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
-    width: 50%;
+    width: 100%;
+
   }
+
 
 /* mobile */
 
@@ -761,6 +762,8 @@ QUIZ STYLES SECTION
 
    
 }
+
+
 
 
 
