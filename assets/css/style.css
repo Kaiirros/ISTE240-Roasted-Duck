@@ -498,7 +498,7 @@ INTRO PAGE
     border: 1px solid #2c598c;
     border-radius: 5px;
     padding: 5px 10px;
-    transition: background-color 0.3s, color 0.3s;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
 }
 
 .contact_link:hover {
@@ -534,6 +534,84 @@ INTRO PAGE
 
 .contact_image{
     margin-left: 42px;
+}
+
+/* sponsors */
+
+
+.profile-card {
+    width: 350px;
+    margin: 40px auto;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+
+.profile-header {
+    background-color: #2c598c; 
+    color: #fff; 
+    text-align: center;
+    padding: 20px;
+}
+
+.profile-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #fff; 
+}
+
+.profile-header h1, .profile-header p {
+    margin: 10px 0;
+}
+
+
+.profile-biography,
+.profile-goals,
+.profile-preferences {
+    background-color: #2c598c; 
+    color: #fff; 
+    padding: 20px;
+    border-top: 1px solid #ddd;
+}
+
+.profile-biography h2, .profile-goals h2, .profile-preferences h2 {
+    color: #F8A427; 
+}
+
+
+.profile-traits {
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.trait {
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 0 5px; 
+}
+
+.friendly {
+    background-color: #7dba7d;
+}
+
+.curious {
+    background-color: #7d8dba;
+}
+
+.reliable {
+    background-color: #ba7d7d;
+}
+
+
+.profile-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 /*

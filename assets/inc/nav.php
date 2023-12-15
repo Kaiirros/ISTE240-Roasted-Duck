@@ -16,16 +16,18 @@
     </div>
 
     <div class="dropdown">
-    <button class="dropbtn active" >Unix</button>
-    <div class="dropdown-content">
-        <a href="tutorial.php" >Tutorials</a>
-        <a href="Quizlanding.php" >Quizzes</a>
+        <button class="dropbtn active" >Unix</button>
+        <div class="dropdown-content">
+            <a href="tutorial.php" >Tutorials</a>
+            <a href="Quizlanding.php" >Quizzes</a>
 
-    </div>
+        </div>
     </div>
 
     <div class="dropdown">
-    <button class="dropbtn active" >Sponsors</button>
+    <a href="sponsors.php" onsubmit="return false"
+        ><button class="dropbtn">Sponsors</button></a
+    >
     <div class="dropdown-content">
 
     </div>
