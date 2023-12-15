@@ -709,3 +709,58 @@ QUIZ STYLES SECTION
     align-items: center;
     width: 50%;
   }
+
+/* mobile */
+
+@media only screen and (max-width: 600px) {
+    
+
+    .nav {
+       
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .nav a {
+        
+        font-size: larger;
+        padding: 12px 15px;
+    }
+
+    .grid {
+       
+        grid-template-columns: 1fr;
+    }
+
+    .hero {
+       
+        position: relative;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .hero p:first-child,
+    .p1 {
+        
+        font-size: smaller;
+    }
+
+    .grid1 {
+        
+        grid-template-columns: 1fr;
+        margin: 20px;
+        gap: 20px;
+    }
+
+    .grid1 div {
+       
+        width: auto;
+        margin: 0 10px;
+    }
+
+   
+}
+
+
+
