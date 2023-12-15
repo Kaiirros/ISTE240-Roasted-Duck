@@ -547,6 +547,16 @@ INTRO PAGE
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     cursor: pointer;
+    flex: 0 0 22%; 
+    margin: 10px;
+}
+
+.profile-cards-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px;
 }
 
 
