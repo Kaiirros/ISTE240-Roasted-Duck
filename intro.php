@@ -12,22 +12,26 @@
 
 <div> 
 
-    <h1 class="intro-title"> Unix Introduction<h1>
+    <h1 class="intro-title"> UNIX Introduction<h1>
 
     <div class="info-flex-container">
         <div class="info-section">
-            <p class="intro-title-info">What is UNIX? </p>
-            <p class="intro-info"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit laboriosam fuga ratione ad odio blanditiis. Accusantium, molestiae id veritatis repellendus, quaerat impedit facilis, sequi deleniti blanditiis commodi maiores! Nulla, reprehenderit?</p>
+            <p class="tutorial-command-title">What is UNIX? </p>
+            <p class="intro-info"> Unix is an operating system that acts as an intermediary between a computer's hardware and its software applications. It provides a set of tools and services to 
+                manage and execute programs, handle files, and facilitate communication between different components of a computer system. Unix is known for its simplicity, modularity, and powerful
+                 command-line interface, allowing users to interact with the system through text commands. It was developed in the late 1960s and has since influenced the design of many other operating systems.</p>
         </div>
 
         <div class="info-section">
-            <p class="intro-title-info">Why use UNIX? </p>
-            <p class="intro-info"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit laboriosam fuga ratione ad odio blanditiis. Accusantium, molestiae id veritatis repellendus, quaerat impedit facilis, sequi deleniti blanditiis commodi maiores! Nulla, reprehenderit?</p>
+            <p class="tutorial-command-title">Why use UNIX? </p>
+            <p class="intro-info">Use Unix for its stability, security, and flexibility. It supports multiple users, has a powerful command-line interface, excels in networking, and offers excellent 
+                performance. With a large supportive community and portability, Unix is a reliable choice for diverse computing needs.</p>
         </div>
 
         <div class="info-section">
-            <p class="intro-title-info">How to use UNIX? </p>
-            <p class="intro-info"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit laboriosam fuga ratione ad odio blanditiis. Accusantium, molestiae id veritatis repellendus, quaerat impedit facilis, sequi deleniti blanditiis commodi maiores! Nulla, reprehenderit?</p>
+            <p class="tutorial-command-title">How to use UNIX? </p>
+            <p class="intro-info"> To start using UNIX, begin by opening the terminal or command prompt. This is where you'll interact with UNIX through text commands. 
+                Explore gradually, trying basic commands and using 'man' for more information. As you become more familiar, experiment with additional commands and functionalities.</p>
         </div>
     </div>
 
